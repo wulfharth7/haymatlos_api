@@ -60,7 +60,7 @@ namespace haymatlosApi.haymatlosApi.Core.Extensions
             services.AddScoped<tokenUtil>();
             services.AddScoped<PostService>();
             services.AddScoped<CommentService>();
-            services.AddScoped<IndexerService>();
+           /* services.AddScoped<IndexerService>();*/
             services.AddSingleton<ElasticService>();
         }
         public static void AddPaginationLinkCreatorService(this IServiceCollection services, IConfiguration configuration)
